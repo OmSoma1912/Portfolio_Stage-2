@@ -1,0 +1,30 @@
+h1 {
+    color : goldenrod
+}
+
+.header{
+    background-color : lightblue;
+    display : flex;
+    justify-content: space-between;
+}
+
+.side-description{
+    display : flex;
+    flex-direction : column;
+    justify-content : first baseline;
+}
+
+.grid{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-evenly;
+}
+
+.game{
+    display : flex;
+    justify-content : flex-end;
+}
+
+p,h3{
+    text-align : center;
+}
